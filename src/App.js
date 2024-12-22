@@ -1,9 +1,9 @@
-import "./App.css";
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello world!</h1>
+    <div className="text-center bg-blue-500 text-white py-10">
+      <h1 className="text-4xl font-bold">Hello, Tailwind CSS!</h1>
     </div>
   );
 }

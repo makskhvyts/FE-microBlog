@@ -1,6 +1,6 @@
-import { useMutation } from "@tanstack/react-query";
-import useApiRequest from "../../../hooks/useApiRequest";
-import useUserAuth from "../../../hooks/useUserAuth";
+import { useMutation } from '@tanstack/react-query';
+import useApiRequest from '../../../hooks/useApiRequest';
+import useUserAuth from '../../../hooks/useUserAuth';
 
 const usePostCreation = (refetchPosts) => {
   const axios = useApiRequest();
@@ -12,7 +12,7 @@ const usePostCreation = (refetchPosts) => {
   };
 
   return useMutation({
-    mutationKey: ["newPost"],
+    mutationKey: ['newPost'],
     mutationFn: ({ content }) => createPost(content),
     onSuccess: () => {
       refetchPosts();

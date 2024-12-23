@@ -1,5 +1,5 @@
-import LoginForm from "./LoginForm";
-import InputField from "./InputField";
+import LoginForm from './LoginForm';
+import InputField from './InputField';
 
 const RegisterForm = ({ username, password, fullName, onChange, isError }) => {
   return (

@@ -1,9 +1,9 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import PostsList from "./pages/PostsList";
-import Login from "./pages/Login";
-import UserHeader from "./components/UserHeader";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import PostsList from './pages/PostsList';
+import Login from './pages/Login';
+import UserHeader from './components/UserHeader';
 
 const queryClient = new QueryClient();
 

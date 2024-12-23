@@ -1,4 +1,4 @@
-import InputField from "./InputField";
+import InputField from './InputField';
 
 const LoginForm = ({ username, password, onChange, isError }) => {
   return (
